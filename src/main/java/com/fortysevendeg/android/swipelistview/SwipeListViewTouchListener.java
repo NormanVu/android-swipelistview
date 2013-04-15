@@ -129,7 +129,7 @@ public class SwipeListViewTouchListener implements View.OnTouchListener {
                 @Override
                 public boolean onLongClick(View v) {
                     openAnimate(downPosition);
-                    return false;
+                    return true;
                 }
             });
         }
